@@ -83,7 +83,7 @@
     },
     {
       "id": 3,
-      "name": "Agua 500ml",
+      "name": "Agua 600ml",
       "price": 500,
       "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
       "type": "Almuerzo",
