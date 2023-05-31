@@ -67,34 +67,119 @@
   "products": [
     {
       "id": 1,
-      "name": "Sandwich de jamón y queso",
-      "price": 1000,
+      "name": "Sanduíche de presunto e queijo",
+      "price": 7,
       "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
-      "type": "Desayuno",
+      "type": "Café da manhã",
       "dateEntry": "2022-03-05 15:14:10"
     },
     {
       "id": 2,
-      "name": "Café americano",
-      "price": 500,
+      "name": "Pão na chapa",
+      "price": 5,
       "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
-      "type": "Desayuno",
+      "type": "Café da manhã",
       "dateEntry": "2022-03-05 15:14:10"
     },
     {
       "id": 3,
-      "name": "Agua 600ml",
-      "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
-      "type": "Almuerzo",
+      "name": "Café americano",
+      "price": 5,
+      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+      "type": "Café da manhã",
       "dateEntry": "2022-03-05 15:14:10"
     },
     {
-      "name": "Agua 500ml",
-      "price": 500,
+      "id": 4,
+      "name": "Café com leite",
+      "price": 5,
+      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
+      "type": "Café da manhã",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 5,
+      "name": "Hambúrguer simples",
+      "price": 10,
       "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
-      "type": "Almuerzo",
-      "id": 4
+      "type": "Almoço"
+    },
+    {
+      "id": 6,
+      "name": "Hambúrguer duplo",
+      "price": 15,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+      "type": "Almoço"
+    },
+    {
+      "id": 7,
+      "name": "Batata frita",
+      "price": 5,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+      "type": "Almoço"
+    },
+    {
+      "id": 8,
+      "name": "Anéis de cebola",
+      "price": 5,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+      "type": "Almoço"
+    },
+    {
+      "id": 9,
+      "name": "Suco de fruta natural",
+      "price": 7,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+      "type": "Bebidas"
+    },
+    {
+      "id": 10,
+      "name": "Refrigerante 500ml",
+      "price": 7,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+      "type": "Bebidas"
+    },
+    {
+      "id": 11,
+      "name": "Água natural 500ml",
+      "price": 5,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+      "type": "Bebidas"
+    },
+    {
+      "id": 12,
+      "name": "Água com gás 500ml",
+      "price": 5,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+      "type": "Bebidas"
+    },
+    {
+      "id": 13,
+      "name": "Sorvete",
+      "price": 5,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+      "type": "Sobremesas"
+    },
+    {
+      "id": 14,
+      "name": "Petit gateau com sorvete",
+      "price": 15,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+      "type": "Sobremesas"
+    },
+    {
+      "id": 15,
+      "name": "Milkshake",
+      "price": 7,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+      "type": "Sobremesas"
+    },
+    {
+      "id": 16,
+      "name": "Cheesecake",
+      "price": 10,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+      "type": "Sobremesas"
     }
   ],
   "users": [
@@ -115,6 +200,18 @@
       "password": "$2a$10$VkvaBkhnm4k3KP/yCdhCgu/qtzxe7F00CVkTsAsr5pbfU8rPVZEQW",
       "role": "admin",
       "id": 3
+    },
+    {
+      "email": "burger@cooker.com",
+      "password": "123456",
+      "role": "cozinha",
+      "id": 4
+    },
+    {
+      "email": "burger@waiter.com",
+      "password": "123456",
+      "role": "atendimento",
+      "id": 5
     }
   ]
 }
